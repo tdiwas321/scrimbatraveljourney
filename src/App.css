@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.navbar {
+  background: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.navLogo {
+  width: 24px;
+}
+
+.content {
+  display: flex;
+  margin: 100px;
+}
+
+.contentImg {
+  width: 296px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.details {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fill {
+  width: 12px;
+}
+.maplink {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #918e9b;
+}
+
+.country {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  margin: none;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.dateContainer {
+  font-weight: bolder;
+}
+
+.description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  width: 500px;
+}
